@@ -14,4 +14,9 @@
 ## What words help to determine a consumer’s sentiment towards a product? 
 ## Can we predict the usefulness of a review based on data input? 
 
+# Communication Protocols
+
+## We have decided to communicate via slack. Each person has their assigned workload. Check-ins will occur the Friday before a segment is due as well as Sunday at 6 pm. 
+
+
 
