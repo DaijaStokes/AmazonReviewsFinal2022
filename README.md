@@ -10,9 +10,13 @@
 
 # Questions
 
-## What determines how useful a review is?
-## What words help to determine a consumer’s sentiment towards a product? 
-## Can we predict the usefulness of a review based on data input? 
+## Are reviews more positive or negative?
+## What are the common words in positive reviews?
+## What are the common words in negative reviews?
+## Which products have the most positive reviews?
+## Which products have the most negative reviews?
+## Can we predict whether a review is positive or negative? 
+
 
 # Communication Protocols
 
@@ -20,7 +24,7 @@
 
 # Machine Learning
 
-## The machine learning model we plan to employ is classification using Keras and Tensorflow. We plan to convert the text to numbers so that we can classfiy the words. Before we do this, we'll use the ratings to determine if it's a posiitive or negative review. All reviews go from 1 to 5. For our purposes, we will assume a 1 or 2 is a negative review, 4 or 5 is positive, and 3 is neutral. We plan to use the tokenizer function to make the words numbers. Then we'll split the data. Next, we will create a Dense layer with an activation function. We'll then select a loss function to use. Then we will train the function. 
+## For our machine learning model, we will use supervised learning models because the basis of our project is a binary classfication. The two we will use are Logistic Regression and Random Forest. The two classfications we wil be looking at is positive and negative. We will not look at neutral reviews. Reviews that have a rating of 1 and 2 will be considered negative, reviews that have a rating of 3 will be neutral, and reviews that have a rating of 4 or 5 will be considered positive. Positive ratings will be given a sentiment score of 1 while negative reviews will be given a sentiment score of -1. Then we'll look at the actualy reviews by combining the "reviewText" and "summary" column, cleaning the text, and vectorizing the data. 
 
 # Link to Powerpoint
 
