@@ -1,5 +1,8 @@
 # AmazonReviewsFinal2022
 
+## Visualizations for the dashboard
+=======
+
 # Topic
 
 ## For our final project, we decided to look at Amazon Reviews under software products to create a model that would predict whether a review was positive or negative. We believe we are moving  into a world where businesses, as well as people, rely heavily on consumer reviews and sentiment to make decisions. As e-commerce picks up throughout the years, we believe it's extremely beneficial for businesses to know the sentiment towards their product. 
@@ -32,3 +35,4 @@
 
 # Dashboard 
 https://public.tableau.com/views/FinalProjectDashboard1_16541264231890/FinalStory?:language=en-US&:display_count=n&:origin=viz_share_link
+
