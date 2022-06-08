@@ -21,10 +21,6 @@ Which products have the most negative reviews?
 Can we predict whether a review is positive or negative? 
 
 
-# Communication Protocols
-
-We have decided to communicate via slack. Each person has their assigned workload. Check-ins will occur the Friday before a segment is due as well as Sunday at 6 pm. 
-
 # Database
 
 For our database, we are using MongoDB.  We have split our dataset into two separate collections: numeric reviews and text reviews.  We chose MongoDB based on the text reviews because we were having difficulty cleaning the data enough for it to work with PostgreSQL.
