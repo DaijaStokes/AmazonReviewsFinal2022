@@ -29,6 +29,8 @@ For our database, we are using MongoDB.  We have split our dataset into two sepa
 
 For our machine learning model, we will use supervised learning models because the basis of our project is a binary classfication. The two we will use are Logistic Regression and Random Forest. The two classfications we wil be looking at is positive and negative. We will not look at neutral reviews. Reviews that have a rating of 1 and 2 will be considered negative, reviews that have a rating of 3 will be neutral, and reviews that have a rating of 4 or 5 will be considered positive. Positive ratings will be given a sentiment score of 1 while negative reviews will be given a sentiment score of -1. Then we'll look at the actualy reviews by combining the "reviewText" and "summary" column, cleaning the text, and vectorizing the data. 
 
+We used Logistic Regression and Random Forest Classification. For our train, test, split, we used 80% and 20%. 
+
 # Link to Powerpoint
 
 ## https://docs.google.com/presentation/d/1dt0AXOXJp6A8BDHW2qJk4usGb1_2VpTvSpyfBm2bAx8/edit?usp=sharing
